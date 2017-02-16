@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicplaylistcreator.MainActivity">
+    <item
+        android:id="@+id/createPlaylist"
+        android:orderInCategory="100"
+        android:title="Create Playlist"
+        tools:ignore="AppCompatResource,HardcodedText"
+        android:showAsAction="always"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/clearAllSelected"
+        android:orderInCategory="100"
+        android:title="Clear All Selected"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/invertSelected"
+        android:orderInCategory="100"
+        android:title="Invert Selected"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/checkAll"
+        android:orderInCategory="100"
+        android:title="Check All"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+</menu>

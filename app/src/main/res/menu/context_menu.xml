@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicplaylistcreator.Main2Activity">
+    <item android:id="@+id/playVideo" android:title="Play Video"/>
+    <item android:id="@+id/songInfo" android:title="Song info"/>
+    <item android:id="@+id/artistInfo" android:title="Artist info"/>
+</menu>
